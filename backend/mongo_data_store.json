@@ -1,0 +1,3943 @@
+{
+  "counters": [
+    {
+      "_id": "dataset_id",
+      "seq": 4
+    },
+    {
+      "_id": "analysis_id",
+      "seq": 4
+    },
+    {
+      "_id": "chart_id",
+      "seq": 61
+    },
+    {
+      "_id": "report_id",
+      "seq": 3
+    }
+  ],
+  "datasets": [
+    {
+      "id": 1,
+      "filename": "2164dd598a_sample_sales_data.csv",
+      "original_filename": "sample_sales_data.csv",
+      "file_type": ".csv",
+      "file_size_bytes": 8083,
+      "storage_path": "D:\\Automate DA\\backend\\uploads\\2164dd598a_sample_sales_data.csv",
+      "row_count": 150,
+      "column_count": 8,
+      "upload_timestamp": "2026-09-09T08:07:28.279287",
+      "columns": [
+        {
+          "id": 1,
+          "column_name": "Transaction_ID",
+          "data_type": "object",
+          "inferred_type": "Text",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 149
+        },
+        {
+          "id": 2,
+          "column_name": "Date",
+          "data_type": "object",
+          "inferred_type": "Date/Time",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 149
+        },
+        {
+          "id": 3,
+          "column_name": "Category",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 1,
+          "unique_count": 5
+        },
+        {
+          "id": 4,
+          "column_name": "Region",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 5
+        },
+        {
+          "id": 5,
+          "column_name": "Sales_Amount",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 1,
+          "unique_count": 147
+        },
+        {
+          "id": 6,
+          "column_name": "Quantity",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 9
+        },
+        {
+          "id": 7,
+          "column_name": "Discount_Pct",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 30
+        },
+        {
+          "id": 8,
+          "column_name": "Customer_Rating",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 3,
+          "unique_count": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "filename": "43814db08c_sample_sales_data.csv",
+      "original_filename": "sample_sales_data.csv",
+      "file_type": ".csv",
+      "file_size_bytes": 8083,
+      "storage_path": "D:\\Automate DA\\backend\\uploads\\43814db08c_sample_sales_data.csv",
+      "row_count": 150,
+      "column_count": 8,
+      "upload_timestamp": "2026-09-09T08:07:47.740295",
+      "columns": [
+        {
+          "id": 1,
+          "column_name": "Transaction_ID",
+          "data_type": "object",
+          "inferred_type": "Text",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 149
+        },
+        {
+          "id": 2,
+          "column_name": "Date",
+          "data_type": "object",
+          "inferred_type": "Date/Time",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 149
+        },
+        {
+          "id": 3,
+          "column_name": "Category",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 1,
+          "unique_count": 5
+        },
+        {
+          "id": 4,
+          "column_name": "Region",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 5
+        },
+        {
+          "id": 5,
+          "column_name": "Sales_Amount",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 1,
+          "unique_count": 147
+        },
+        {
+          "id": 6,
+          "column_name": "Quantity",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 9
+        },
+        {
+          "id": 7,
+          "column_name": "Discount_Pct",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 30
+        },
+        {
+          "id": 8,
+          "column_name": "Customer_Rating",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 3,
+          "unique_count": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "filename": "37e56c73e4_Day_-_30_-_Mobile_Sales_Data.xlsx",
+      "original_filename": "Day - 30 - Mobile Sales Data.xlsx",
+      "file_type": ".xlsx",
+      "file_size_bytes": 298653,
+      "storage_path": "D:\\Automate DA\\backend\\uploads\\37e56c73e4_Day_-_30_-_Mobile_Sales_Data.xlsx",
+      "row_count": 3835,
+      "column_count": 14,
+      "upload_timestamp": "2026-09-09T08:13:09.292490",
+      "columns": [
+        {
+          "id": 1,
+          "column_name": "Transaction ID",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 3835
+        },
+        {
+          "id": 2,
+          "column_name": "Day",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 31
+        },
+        {
+          "id": 3,
+          "column_name": "Month",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 12
+        },
+        {
+          "id": 4,
+          "column_name": "Year",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 4
+        },
+        {
+          "id": 5,
+          "column_name": "Day Name",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 14
+        },
+        {
+          "id": 6,
+          "column_name": "Brand",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 5
+        },
+        {
+          "id": 7,
+          "column_name": "Units Sold",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 9
+        },
+        {
+          "id": 8,
+          "column_name": "Price Per Unit",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 3835
+        },
+        {
+          "id": 9,
+          "column_name": "Customer Name",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 988
+        },
+        {
+          "id": 10,
+          "column_name": "Customer Age",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 42
+        },
+        {
+          "id": 11,
+          "column_name": "City",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 19
+        },
+        {
+          "id": 12,
+          "column_name": "Payment Method",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 4
+        },
+        {
+          "id": 13,
+          "column_name": "Customer Ratings",
+          "data_type": "int64",
+          "inferred_type": "Numerical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 5
+        },
+        {
+          "id": 14,
+          "column_name": "Mobile Model",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": false,
+          "null_count": 0,
+          "unique_count": 15
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "filename": "ebf1865100_Day_-_23_to_Day_-_24_Parts_-_Vehicle_Product_Sales_Data.xlsx",
+      "original_filename": "Day - 23 to Day - 24 Parts - Vehicle Product Sales Data.xlsx",
+      "file_type": ".xlsx",
+      "file_size_bytes": 309760,
+      "storage_path": "D:\\Automate DA\\backend\\uploads\\ebf1865100_Day_-_23_to_Day_-_24_Parts_-_Vehicle_Product_Sales_Data.xlsx",
+      "row_count": 2832,
+      "column_count": 22,
+      "upload_timestamp": "2026-09-09T08:16:44.534940",
+      "columns": [
+        {
+          "id": 1,
+          "column_name": "ORDERNUMBER",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 307
+        },
+        {
+          "id": 2,
+          "column_name": "QUANTITYORDERED",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 58
+        },
+        {
+          "id": 3,
+          "column_name": "PRICEEACH",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 1016
+        },
+        {
+          "id": 4,
+          "column_name": "ORDERLINENUMBER",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 18
+        },
+        {
+          "id": 5,
+          "column_name": "ORDERDATE",
+          "data_type": "object",
+          "inferred_type": "Date/Time",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 252
+        },
+        {
+          "id": 6,
+          "column_name": "STATUS",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 6
+        },
+        {
+          "id": 7,
+          "column_name": "QTR_ID",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 4
+        },
+        {
+          "id": 8,
+          "column_name": "MONTH_ID",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 12
+        },
+        {
+          "id": 9,
+          "column_name": "YEAR_ID",
+          "data_type": "float64",
+          "inferred_type": "Numerical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 3
+        },
+        {
+          "id": 10,
+          "column_name": "PRODUCTLINE",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 7
+        },
+        {
+          "id": 11,
+          "column_name": "PRODUCTCODE",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 109
+        },
+        {
+          "id": 12,
+          "column_name": "CUSTOMERNAME",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 92
+        },
+        {
+          "id": 13,
+          "column_name": "ADDRESSLINE1",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 92
+        },
+        {
+          "id": 14,
+          "column_name": "ADDRESSLINE2",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 2530,
+          "unique_count": 9
+        },
+        {
+          "id": 15,
+          "column_name": "CITY",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 73
+        },
+        {
+          "id": 16,
+          "column_name": "STATE",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 1495,
+          "unique_count": 16
+        },
+        {
+          "id": 17,
+          "column_name": "POSTALCODE",
+          "data_type": "object",
+          "inferred_type": "Date/Time",
+          "is_nullable": true,
+          "null_count": 85,
+          "unique_count": 73
+        },
+        {
+          "id": 18,
+          "column_name": "COUNTRY",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 19
+        },
+        {
+          "id": 19,
+          "column_name": "TERRITORY",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 1083,
+          "unique_count": 3
+        },
+        {
+          "id": 20,
+          "column_name": "CONTACTLASTNAME",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 77
+        },
+        {
+          "id": 21,
+          "column_name": "CONTACTFIRSTNAME",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 72
+        },
+        {
+          "id": 22,
+          "column_name": "DEALSIZE",
+          "data_type": "object",
+          "inferred_type": "Categorical",
+          "is_nullable": true,
+          "null_count": 9,
+          "unique_count": 3
+        }
+      ]
+    }
+  ],
+  "analysis_results": [
+    {
+      "id": 1,
+      "dataset_id": 1,
+      "analysis_timestamp": "2026-09-09T08:07:28.376774",
+      "quality_score": 99.6,
+      "data_quality_json": {
+        "total_rows": 150,
+        "total_columns": 8,
+        "total_cells": 1200,
+        "total_missing_cells": 5,
+        "missing_percentage": 0.42,
+        "duplicate_rows": 1,
+        "duplicate_percentage": 0.67,
+        "invalid_cells": 0,
+        "date_columns": [
+          "Date"
+        ],
+        "completeness_score": 99.6,
+        "uniqueness_score": 99.3,
+        "validity_score": 100.0,
+        "overall_quality_score": 99.6,
+        "column_missing_counts": {
+          "Transaction_ID": 0,
+          "Date": 0,
+          "Category": 1,
+          "Region": 0,
+          "Sales_Amount": 1,
+          "Quantity": 0,
+          "Discount_Pct": 0,
+          "Customer_Rating": 3
+        },
+        "column_invalid_counts": {
+          "Transaction_ID": 0,
+          "Date": 0,
+          "Category": 0,
+          "Region": 0,
+          "Sales_Amount": 0,
+          "Quantity": 0,
+          "Discount_Pct": 0,
+          "Customer_Rating": 0
+        }
+      },
+      "numerical_stats_json": {
+        "Sales_Amount": {
+          "count": 149,
+          "mean": 247.9978,
+          "median": 247.73,
+          "mode": 320.63,
+          "min": -19.13,
+          "max": 504.96,
+          "std": 90.0056,
+          "q25": 188.76,
+          "q75": 313.25
+        },
+        "Quantity": {
+          "count": 150,
+          "mean": 4.64,
+          "median": 5.0,
+          "mode": 1.0,
+          "min": 1.0,
+          "max": 9.0,
+          "std": 2.6069,
+          "q25": 2.0,
+          "q75": 6.75
+        },
+        "Discount_Pct": {
+          "count": 150,
+          "mean": 0.131,
+          "median": 0.115,
+          "mode": 0.05,
+          "min": 0.01,
+          "max": 0.3,
+          "std": 0.0834,
+          "q25": 0.0525,
+          "q75": 0.1975
+        },
+        "Customer_Rating": {
+          "count": 147,
+          "mean": 3.6871,
+          "median": 4.0,
+          "mode": 4.0,
+          "min": 1.0,
+          "max": 5.0,
+          "std": 1.0456,
+          "q25": 3.0,
+          "q75": 4.0
+        }
+      },
+      "categorical_stats_json": {
+        "Transaction_ID": {
+          "unique_values": 149,
+          "top_category": "TXN-1014",
+          "top_category_count": 2,
+          "frequency_distribution": {
+            "TXN-1014": {
+              "count": 2,
+              "percentage": 1.33
+            },
+            "TXN-1000": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1103": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1097": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1098": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1099": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1100": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1101": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1102": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1104": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1095": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1105": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1106": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1107": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1108": {
+              "count": 1,
+              "percentage": 0.67
+            }
+          },
+          "top_categories": {
+            "TXN-1014": 2,
+            "TXN-1000": 1,
+            "TXN-1103": 1,
+            "TXN-1097": 1,
+            "TXN-1098": 1,
+            "TXN-1099": 1,
+            "TXN-1100": 1,
+            "TXN-1101": 1,
+            "TXN-1102": 1,
+            "TXN-1104": 1
+          }
+        },
+        "Date": {
+          "unique_values": 149,
+          "top_category": "2025-01-15",
+          "top_category_count": 2,
+          "frequency_distribution": {
+            "2025-01-15": {
+              "count": 2,
+              "percentage": 1.33
+            },
+            "2025-01-01": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-14": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-08": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-09": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-10": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-11": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-12": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-13": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-15": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-06": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-16": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-17": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-18": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-19": {
+              "count": 1,
+              "percentage": 0.67
+            }
+          },
+          "top_categories": {
+            "2025-01-15": 2,
+            "2025-01-01": 1,
+            "2025-04-14": 1,
+            "2025-04-08": 1,
+            "2025-04-09": 1,
+            "2025-04-10": 1,
+            "2025-04-11": 1,
+            "2025-04-12": 1,
+            "2025-04-13": 1,
+            "2025-04-15": 1
+          }
+        },
+        "Category": {
+          "unique_values": 5,
+          "top_category": "Books",
+          "top_category_count": 41,
+          "frequency_distribution": {
+            "Books": {
+              "count": 41,
+              "percentage": 27.52
+            },
+            "Toys": {
+              "count": 30,
+              "percentage": 20.13
+            },
+            "Home & Kitchen": {
+              "count": 27,
+              "percentage": 18.12
+            },
+            "Clothing": {
+              "count": 27,
+              "percentage": 18.12
+            },
+            "Electronics": {
+              "count": 24,
+              "percentage": 16.11
+            }
+          },
+          "top_categories": {
+            "Books": 41,
+            "Toys": 30,
+            "Home & Kitchen": 27,
+            "Clothing": 27,
+            "Electronics": 24
+          }
+        },
+        "Region": {
+          "unique_values": 5,
+          "top_category": "North",
+          "top_category_count": 44,
+          "frequency_distribution": {
+            "North": {
+              "count": 44,
+              "percentage": 29.33
+            },
+            "East": {
+              "count": 37,
+              "percentage": 24.67
+            },
+            "West": {
+              "count": 34,
+              "percentage": 22.67
+            },
+            "Central": {
+              "count": 18,
+              "percentage": 12.0
+            },
+            "South": {
+              "count": 17,
+              "percentage": 11.33
+            }
+          },
+          "top_categories": {
+            "North": 44,
+            "East": 37,
+            "West": 34,
+            "Central": 18,
+            "South": 17
+          }
+        }
+      },
+      "correlation_matrix_json": {
+        "matrix": {
+          "Sales_Amount": {
+            "Sales_Amount": 1.0,
+            "Quantity": -0.15,
+            "Discount_Pct": 0.2056,
+            "Customer_Rating": 0.1117
+          },
+          "Quantity": {
+            "Sales_Amount": -0.15,
+            "Quantity": 1.0,
+            "Discount_Pct": 0.0356,
+            "Customer_Rating": 0.0342
+          },
+          "Discount_Pct": {
+            "Sales_Amount": 0.2056,
+            "Quantity": 0.0356,
+            "Discount_Pct": 1.0,
+            "Customer_Rating": 0.0249
+          },
+          "Customer_Rating": {
+            "Sales_Amount": 0.1117,
+            "Quantity": 0.0342,
+            "Discount_Pct": 0.0249,
+            "Customer_Rating": 1.0
+          }
+        },
+        "strong_positive": [],
+        "strong_negative": []
+      }
+    },
+    {
+      "id": 2,
+      "dataset_id": 2,
+      "analysis_timestamp": "2026-09-09T08:07:47.835438",
+      "quality_score": 99.6,
+      "data_quality_json": {
+        "total_rows": 150,
+        "total_columns": 8,
+        "total_cells": 1200,
+        "total_missing_cells": 5,
+        "missing_percentage": 0.42,
+        "duplicate_rows": 1,
+        "duplicate_percentage": 0.67,
+        "invalid_cells": 0,
+        "date_columns": [
+          "Date"
+        ],
+        "completeness_score": 99.6,
+        "uniqueness_score": 99.3,
+        "validity_score": 100.0,
+        "overall_quality_score": 99.6,
+        "column_missing_counts": {
+          "Transaction_ID": 0,
+          "Date": 0,
+          "Category": 1,
+          "Region": 0,
+          "Sales_Amount": 1,
+          "Quantity": 0,
+          "Discount_Pct": 0,
+          "Customer_Rating": 3
+        },
+        "column_invalid_counts": {
+          "Transaction_ID": 0,
+          "Date": 0,
+          "Category": 0,
+          "Region": 0,
+          "Sales_Amount": 0,
+          "Quantity": 0,
+          "Discount_Pct": 0,
+          "Customer_Rating": 0
+        }
+      },
+      "numerical_stats_json": {
+        "Sales_Amount": {
+          "count": 149,
+          "mean": 247.9978,
+          "median": 247.73,
+          "mode": 320.63,
+          "min": -19.13,
+          "max": 504.96,
+          "std": 90.0056,
+          "q25": 188.76,
+          "q75": 313.25
+        },
+        "Quantity": {
+          "count": 150,
+          "mean": 4.64,
+          "median": 5.0,
+          "mode": 1.0,
+          "min": 1.0,
+          "max": 9.0,
+          "std": 2.6069,
+          "q25": 2.0,
+          "q75": 6.75
+        },
+        "Discount_Pct": {
+          "count": 150,
+          "mean": 0.131,
+          "median": 0.115,
+          "mode": 0.05,
+          "min": 0.01,
+          "max": 0.3,
+          "std": 0.0834,
+          "q25": 0.0525,
+          "q75": 0.1975
+        },
+        "Customer_Rating": {
+          "count": 147,
+          "mean": 3.6871,
+          "median": 4.0,
+          "mode": 4.0,
+          "min": 1.0,
+          "max": 5.0,
+          "std": 1.0456,
+          "q25": 3.0,
+          "q75": 4.0
+        }
+      },
+      "categorical_stats_json": {
+        "Transaction_ID": {
+          "unique_values": 149,
+          "top_category": "TXN-1014",
+          "top_category_count": 2,
+          "frequency_distribution": {
+            "TXN-1014": {
+              "count": 2,
+              "percentage": 1.33
+            },
+            "TXN-1000": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1103": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1097": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1098": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1099": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1100": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1101": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1102": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1104": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1095": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1105": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1106": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1107": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "TXN-1108": {
+              "count": 1,
+              "percentage": 0.67
+            }
+          },
+          "top_categories": {
+            "TXN-1014": 2,
+            "TXN-1000": 1,
+            "TXN-1103": 1,
+            "TXN-1097": 1,
+            "TXN-1098": 1,
+            "TXN-1099": 1,
+            "TXN-1100": 1,
+            "TXN-1101": 1,
+            "TXN-1102": 1,
+            "TXN-1104": 1
+          }
+        },
+        "Date": {
+          "unique_values": 149,
+          "top_category": "2025-01-15",
+          "top_category_count": 2,
+          "frequency_distribution": {
+            "2025-01-15": {
+              "count": 2,
+              "percentage": 1.33
+            },
+            "2025-01-01": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-14": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-08": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-09": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-10": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-11": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-12": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-13": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-15": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-06": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-16": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-17": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-18": {
+              "count": 1,
+              "percentage": 0.67
+            },
+            "2025-04-19": {
+              "count": 1,
+              "percentage": 0.67
+            }
+          },
+          "top_categories": {
+            "2025-01-15": 2,
+            "2025-01-01": 1,
+            "2025-04-14": 1,
+            "2025-04-08": 1,
+            "2025-04-09": 1,
+            "2025-04-10": 1,
+            "2025-04-11": 1,
+            "2025-04-12": 1,
+            "2025-04-13": 1,
+            "2025-04-15": 1
+          }
+        },
+        "Category": {
+          "unique_values": 5,
+          "top_category": "Books",
+          "top_category_count": 41,
+          "frequency_distribution": {
+            "Books": {
+              "count": 41,
+              "percentage": 27.52
+            },
+            "Toys": {
+              "count": 30,
+              "percentage": 20.13
+            },
+            "Home & Kitchen": {
+              "count": 27,
+              "percentage": 18.12
+            },
+            "Clothing": {
+              "count": 27,
+              "percentage": 18.12
+            },
+            "Electronics": {
+              "count": 24,
+              "percentage": 16.11
+            }
+          },
+          "top_categories": {
+            "Books": 41,
+            "Toys": 30,
+            "Home & Kitchen": 27,
+            "Clothing": 27,
+            "Electronics": 24
+          }
+        },
+        "Region": {
+          "unique_values": 5,
+          "top_category": "North",
+          "top_category_count": 44,
+          "frequency_distribution": {
+            "North": {
+              "count": 44,
+              "percentage": 29.33
+            },
+            "East": {
+              "count": 37,
+              "percentage": 24.67
+            },
+            "West": {
+              "count": 34,
+              "percentage": 22.67
+            },
+            "Central": {
+              "count": 18,
+              "percentage": 12.0
+            },
+            "South": {
+              "count": 17,
+              "percentage": 11.33
+            }
+          },
+          "top_categories": {
+            "North": 44,
+            "East": 37,
+            "West": 34,
+            "Central": 18,
+            "South": 17
+          }
+        }
+      },
+      "correlation_matrix_json": {
+        "matrix": {
+          "Sales_Amount": {
+            "Sales_Amount": 1.0,
+            "Quantity": -0.15,
+            "Discount_Pct": 0.2056,
+            "Customer_Rating": 0.1117
+          },
+          "Quantity": {
+            "Sales_Amount": -0.15,
+            "Quantity": 1.0,
+            "Discount_Pct": 0.0356,
+            "Customer_Rating": 0.0342
+          },
+          "Discount_Pct": {
+            "Sales_Amount": 0.2056,
+            "Quantity": 0.0356,
+            "Discount_Pct": 1.0,
+            "Customer_Rating": 0.0249
+          },
+          "Customer_Rating": {
+            "Sales_Amount": 0.1117,
+            "Quantity": 0.0342,
+            "Discount_Pct": 0.0249,
+            "Customer_Rating": 1.0
+          }
+        },
+        "strong_positive": [],
+        "strong_negative": []
+      }
+    },
+    {
+      "id": 3,
+      "dataset_id": 3,
+      "analysis_timestamp": "2026-09-09T08:13:23.319898",
+      "quality_score": 100.0,
+      "data_quality_json": {
+        "total_rows": 3835,
+        "total_columns": 14,
+        "total_cells": 53690,
+        "total_missing_cells": 0,
+        "missing_percentage": 0.0,
+        "duplicate_rows": 0,
+        "duplicate_percentage": 0.0,
+        "invalid_cells": 0,
+        "date_columns": [],
+        "completeness_score": 100.0,
+        "uniqueness_score": 100.0,
+        "validity_score": 100.0,
+        "overall_quality_score": 100.0,
+        "column_missing_counts": {
+          "Transaction ID": 0,
+          "Day": 0,
+          "Month": 0,
+          "Year": 0,
+          "Day Name": 0,
+          "Brand": 0,
+          "Units Sold": 0,
+          "Price Per Unit": 0,
+          "Customer Name": 0,
+          "Customer Age": 0,
+          "City": 0,
+          "Payment Method": 0,
+          "Customer Ratings": 0,
+          "Mobile Model": 0
+        },
+        "column_invalid_counts": {
+          "Transaction ID": 0,
+          "Day": 0,
+          "Month": 0,
+          "Year": 0,
+          "Day Name": 0,
+          "Brand": 0,
+          "Units Sold": 0,
+          "Price Per Unit": 0,
+          "Customer Name": 0,
+          "Customer Age": 0,
+          "City": 0,
+          "Payment Method": 0,
+          "Customer Ratings": 0,
+          "Mobile Model": 0
+        }
+      },
+      "numerical_stats_json": {
+        "Transaction ID": {
+          "count": 3835,
+          "mean": 1918.0,
+          "median": 1918.0,
+          "mode": 1.0,
+          "min": 1.0,
+          "max": 3835.0,
+          "std": 1107.2135,
+          "q25": 959.5,
+          "q75": 2876.5
+        },
+        "Day": {
+          "count": 3835,
+          "mean": 15.7038,
+          "median": 16.0,
+          "mode": 1.0,
+          "min": 1.0,
+          "max": 31.0,
+          "std": 8.8228,
+          "q25": 8.0,
+          "q75": 23.0
+        },
+        "Month": {
+          "count": 3835,
+          "mean": 6.5272,
+          "median": 7.0,
+          "mode": 1.0,
+          "min": 1.0,
+          "max": 12.0,
+          "std": 3.452,
+          "q25": 4.0,
+          "q75": 10.0
+        },
+        "Year": {
+          "count": 3835,
+          "mean": 2022.7653,
+          "median": 2023.0,
+          "mode": 2023.0,
+          "min": 2021.0,
+          "max": 2024.0,
+          "std": 0.9174,
+          "q25": 2022.0,
+          "q75": 2024.0
+        },
+        "Units Sold": {
+          "count": 3835,
+          "mean": 4.9935,
+          "median": 5.0,
+          "mode": 7.0,
+          "min": 1.0,
+          "max": 9.0,
+          "std": 2.5811,
+          "q25": 3.0,
+          "q75": 7.0
+        },
+        "Price Per Unit": {
+          "count": 3835,
+          "mean": 40114.0368,
+          "median": 40136.49,
+          "mode": 10011.11,
+          "min": 10011.11,
+          "max": 69984.48,
+          "std": 17310.4884,
+          "q25": 25617.405,
+          "q75": 54973.475
+        },
+        "Customer Age": {
+          "count": 3835,
+          "mean": 38.0983,
+          "median": 38.0,
+          "mode": 27.0,
+          "min": 18.0,
+          "max": 59.0,
+          "std": 12.1106,
+          "q25": 27.5,
+          "q75": 49.0
+        },
+        "Customer Ratings": {
+          "count": 3835,
+          "mean": 3.6931,
+          "median": 4.0,
+          "mode": 5.0,
+          "min": 1.0,
+          "max": 5.0,
+          "std": 1.3251,
+          "q25": 3.0,
+          "q75": 5.0
+        }
+      },
+      "categorical_stats_json": {
+        "Day Name": {
+          "unique_values": 14,
+          "top_category": "Saturday",
+          "top_category_count": 562,
+          "frequency_distribution": {
+            "Saturday": {
+              "count": 562,
+              "percentage": 14.65
+            },
+            "Friday": {
+              "count": 547,
+              "percentage": 14.26
+            },
+            "Monday": {
+              "count": 546,
+              "percentage": 14.24
+            },
+            "Sunday": {
+              "count": 543,
+              "percentage": 14.16
+            },
+            "Tuesday": {
+              "count": 539,
+              "percentage": 14.05
+            },
+            "Wednesday": {
+              "count": 539,
+              "percentage": 14.05
+            },
+            "Thursday": {
+              "count": 536,
+              "percentage": 13.98
+            },
+            "Wed": {
+              "count": 5,
+              "percentage": 0.13
+            },
+            "Sun": {
+              "count": 4,
+              "percentage": 0.1
+            },
+            "Thu": {
+              "count": 4,
+              "percentage": 0.1
+            },
+            "Mon": {
+              "count": 3,
+              "percentage": 0.08
+            },
+            "Fri": {
+              "count": 3,
+              "percentage": 0.08
+            },
+            "Sat": {
+              "count": 2,
+              "percentage": 0.05
+            },
+            "Tue": {
+              "count": 2,
+              "percentage": 0.05
+            }
+          },
+          "top_categories": {
+            "Saturday": 562,
+            "Friday": 547,
+            "Monday": 546,
+            "Sunday": 543,
+            "Tuesday": 539,
+            "Wednesday": 539,
+            "Thursday": 536,
+            "Wed": 5,
+            "Sun": 4,
+            "Thu": 4
+          }
+        },
+        "Brand": {
+          "unique_values": 5,
+          "top_category": "Apple",
+          "top_category_count": 783,
+          "frequency_distribution": {
+            "Apple": {
+              "count": 783,
+              "percentage": 20.42
+            },
+            "Samsung": {
+              "count": 775,
+              "percentage": 20.21
+            },
+            "OnePlus": {
+              "count": 768,
+              "percentage": 20.03
+            },
+            "Vivo": {
+              "count": 766,
+              "percentage": 19.97
+            },
+            "Xiaomi": {
+              "count": 743,
+              "percentage": 19.37
+            }
+          },
+          "top_categories": {
+            "Apple": 783,
+            "Samsung": 775,
+            "OnePlus": 768,
+            "Vivo": 766,
+            "Xiaomi": 743
+          }
+        },
+        "Customer Name": {
+          "unique_values": 988,
+          "top_category": "Prashant Gupta",
+          "top_category_count": 12,
+          "frequency_distribution": {
+            "Prashant Gupta": {
+              "count": 12,
+              "percentage": 0.31
+            },
+            "Manoj Jain": {
+              "count": 11,
+              "percentage": 0.29
+            },
+            "Sumit Malhotra": {
+              "count": 10,
+              "percentage": 0.26
+            },
+            "Lata Shah": {
+              "count": 10,
+              "percentage": 0.26
+            },
+            "Priya Varma": {
+              "count": 10,
+              "percentage": 0.26
+            },
+            "Nikhil Solanki": {
+              "count": 10,
+              "percentage": 0.26
+            },
+            "Pooja Arora": {
+              "count": 9,
+              "percentage": 0.23
+            },
+            "Vijay Varma": {
+              "count": 9,
+              "percentage": 0.23
+            },
+            "Priya Roy": {
+              "count": 9,
+              "percentage": 0.23
+            },
+            "Pankaj Shah": {
+              "count": 9,
+              "percentage": 0.23
+            },
+            "Prashant Arora": {
+              "count": 9,
+              "percentage": 0.23
+            },
+            "Meena Mathur": {
+              "count": 9,
+              "percentage": 0.23
+            },
+            "Pooja Deshmukh": {
+              "count": 9,
+              "percentage": 0.23
+            },
+            "Kavita Teja": {
+              "count": 9,
+              "percentage": 0.23
+            },
+            "Anand Joshi": {
+              "count": 8,
+              "percentage": 0.21
+            }
+          },
+          "top_categories": {
+            "Prashant Gupta": 12,
+            "Manoj Jain": 11,
+            "Sumit Malhotra": 10,
+            "Lata Shah": 10,
+            "Priya Varma": 10,
+            "Nikhil Solanki": 10,
+            "Pooja Arora": 9,
+            "Vijay Varma": 9,
+            "Priya Roy": 9,
+            "Pankaj Shah": 9
+          }
+        },
+        "City": {
+          "unique_values": 19,
+          "top_category": "Delhi",
+          "top_category_count": 1008,
+          "frequency_distribution": {
+            "Delhi": {
+              "count": 1008,
+              "percentage": 26.28
+            },
+            "Mumbai": {
+              "count": 654,
+              "percentage": 17.05
+            },
+            "Ranchi": {
+              "count": 153,
+              "percentage": 3.99
+            },
+            "Hyderabad": {
+              "count": 138,
+              "percentage": 3.6
+            },
+            "Bangalore": {
+              "count": 136,
+              "percentage": 3.55
+            },
+            "Gorakhpur": {
+              "count": 130,
+              "percentage": 3.39
+            },
+            "Lucknow": {
+              "count": 130,
+              "percentage": 3.39
+            },
+            "Indore": {
+              "count": 129,
+              "percentage": 3.36
+            },
+            "Kolkata": {
+              "count": 129,
+              "percentage": 3.36
+            },
+            "Jodhpur": {
+              "count": 127,
+              "percentage": 3.31
+            },
+            "Rajkot": {
+              "count": 126,
+              "percentage": 3.29
+            },
+            "Chennai": {
+              "count": 125,
+              "percentage": 3.26
+            },
+            "Kanpur": {
+              "count": 125,
+              "percentage": 3.26
+            },
+            "Bhopal": {
+              "count": 124,
+              "percentage": 3.23
+            },
+            "Vadodara": {
+              "count": 123,
+              "percentage": 3.21
+            }
+          },
+          "top_categories": {
+            "Delhi": 1008,
+            "Mumbai": 654,
+            "Ranchi": 153,
+            "Hyderabad": 138,
+            "Bangalore": 136,
+            "Gorakhpur": 130,
+            "Lucknow": 130,
+            "Indore": 129,
+            "Kolkata": 129,
+            "Jodhpur": 127
+          }
+        },
+        "Payment Method": {
+          "unique_values": 4,
+          "top_category": "UPI",
+          "top_category_count": 1011,
+          "frequency_distribution": {
+            "UPI": {
+              "count": 1011,
+              "percentage": 26.36
+            },
+            "Debit Card": {
+              "count": 948,
+              "percentage": 24.72
+            },
+            "Credit Card": {
+              "count": 947,
+              "percentage": 24.69
+            },
+            "Cash": {
+              "count": 929,
+              "percentage": 24.22
+            }
+          },
+          "top_categories": {
+            "UPI": 1011,
+            "Debit Card": 948,
+            "Credit Card": 947,
+            "Cash": 929
+          }
+        },
+        "Mobile Model": {
+          "unique_values": 15,
+          "top_category": "Vivo Y51",
+          "top_category_count": 283,
+          "frequency_distribution": {
+            "Vivo Y51": {
+              "count": 283,
+              "percentage": 7.38
+            },
+            "iPhone SE": {
+              "count": 280,
+              "percentage": 7.3
+            },
+            "OnePlus Nord": {
+              "count": 273,
+              "percentage": 7.12
+            },
+            "Galaxy Note 20": {
+              "count": 266,
+              "percentage": 6.94
+            },
+            "iPhone 11": {
+              "count": 265,
+              "percentage": 6.91
+            },
+            "Mi 11": {
+              "count": 263,
+              "percentage": 6.86
+            },
+            "Galaxy S21": {
+              "count": 260,
+              "percentage": 6.78
+            },
+            "Redmi Note 10": {
+              "count": 251,
+              "percentage": 6.54
+            },
+            "Galaxy A51": {
+              "count": 249,
+              "percentage": 6.49
+            },
+            "OnePlus 8T": {
+              "count": 249,
+              "percentage": 6.49
+            },
+            "OnePlus 9": {
+              "count": 246,
+              "percentage": 6.41
+            },
+            "Vivo V20": {
+              "count": 243,
+              "percentage": 6.34
+            },
+            "Vivo S1": {
+              "count": 240,
+              "percentage": 6.26
+            },
+            "iPhone 12": {
+              "count": 238,
+              "percentage": 6.21
+            },
+            "Redmi 9": {
+              "count": 229,
+              "percentage": 5.97
+            }
+          },
+          "top_categories": {
+            "Vivo Y51": 283,
+            "iPhone SE": 280,
+            "OnePlus Nord": 273,
+            "Galaxy Note 20": 266,
+            "iPhone 11": 265,
+            "Mi 11": 263,
+            "Galaxy S21": 260,
+            "Redmi Note 10": 251,
+            "Galaxy A51": 249,
+            "OnePlus 8T": 249
+          }
+        }
+      },
+      "correlation_matrix_json": {
+        "matrix": {
+          "Transaction ID": {
+            "Transaction ID": 1.0,
+            "Day": -0.0037,
+            "Month": -0.0229,
+            "Year": 0.9492,
+            "Units Sold": -0.0077,
+            "Price Per Unit": -0.022,
+            "Customer Age": -0.0052,
+            "Customer Ratings": -0.1934
+          },
+          "Day": {
+            "Transaction ID": -0.0037,
+            "Day": 1.0,
+            "Month": 0.0129,
+            "Year": -0.0338,
+            "Units Sold": -0.02,
+            "Price Per Unit": -0.018,
+            "Customer Age": 0.0,
+            "Customer Ratings": 0.0126
+          },
+          "Month": {
+            "Transaction ID": -0.0229,
+            "Day": 0.0129,
+            "Month": 1.0,
+            "Year": -0.3352,
+            "Units Sold": -0.0208,
+            "Price Per Unit": -0.0292,
+            "Customer Age": -0.0086,
+            "Customer Ratings": 0.0743
+          },
+          "Year": {
+            "Transaction ID": 0.9492,
+            "Day": -0.0338,
+            "Month": -0.3352,
+            "Year": 1.0,
+            "Units Sold": -0.0001,
+            "Price Per Unit": -0.0111,
+            "Customer Age": -0.0021,
+            "Customer Ratings": -0.2056
+          },
+          "Units Sold": {
+            "Transaction ID": -0.0077,
+            "Day": -0.02,
+            "Month": -0.0208,
+            "Year": -0.0001,
+            "Units Sold": 1.0,
+            "Price Per Unit": 0.006,
+            "Customer Age": 0.0191,
+            "Customer Ratings": 0.0201
+          },
+          "Price Per Unit": {
+            "Transaction ID": -0.022,
+            "Day": -0.018,
+            "Month": -0.0292,
+            "Year": -0.0111,
+            "Units Sold": 0.006,
+            "Price Per Unit": 1.0,
+            "Customer Age": 0.0048,
+            "Customer Ratings": 0.0141
+          },
+          "Customer Age": {
+            "Transaction ID": -0.0052,
+            "Day": 0.0,
+            "Month": -0.0086,
+            "Year": -0.0021,
+            "Units Sold": 0.0191,
+            "Price Per Unit": 0.0048,
+            "Customer Age": 1.0,
+            "Customer Ratings": -0.0105
+          },
+          "Customer Ratings": {
+            "Transaction ID": -0.1934,
+            "Day": 0.0126,
+            "Month": 0.0743,
+            "Year": -0.2056,
+            "Units Sold": 0.0201,
+            "Price Per Unit": 0.0141,
+            "Customer Age": -0.0105,
+            "Customer Ratings": 1.0
+          }
+        },
+        "strong_positive": [
+          {
+            "col1": "Transaction ID",
+            "col2": "Year",
+            "correlation": 0.9492
+          }
+        ],
+        "strong_negative": []
+      }
+    },
+    {
+      "id": 4,
+      "dataset_id": 4,
+      "analysis_timestamp": "2026-09-09T08:16:51.407271",
+      "quality_score": 95.6,
+      "data_quality_json": {
+        "total_rows": 2832,
+        "total_columns": 22,
+        "total_cells": 62304,
+        "total_missing_cells": 5355,
+        "missing_percentage": 8.59,
+        "duplicate_rows": 8,
+        "duplicate_percentage": 0.28,
+        "invalid_cells": 0,
+        "date_columns": [
+          "ORDERDATE",
+          "POSTALCODE"
+        ],
+        "completeness_score": 91.4,
+        "uniqueness_score": 99.7,
+        "validity_score": 100.0,
+        "overall_quality_score": 95.6,
+        "column_missing_counts": {
+          "ORDERNUMBER": 9,
+          "QUANTITYORDERED": 9,
+          "PRICEEACH": 9,
+          "ORDERLINENUMBER": 9,
+          "ORDERDATE": 9,
+          "STATUS": 9,
+          "QTR_ID": 9,
+          "MONTH_ID": 9,
+          "YEAR_ID": 9,
+          "PRODUCTLINE": 9,
+          "PRODUCTCODE": 9,
+          "CUSTOMERNAME": 9,
+          "ADDRESSLINE1": 9,
+          "ADDRESSLINE2": 2530,
+          "CITY": 9,
+          "STATE": 1495,
+          "POSTALCODE": 85,
+          "COUNTRY": 9,
+          "TERRITORY": 1083,
+          "CONTACTLASTNAME": 9,
+          "CONTACTFIRSTNAME": 9,
+          "DEALSIZE": 9
+        },
+        "column_invalid_counts": {
+          "ORDERNUMBER": 0,
+          "QUANTITYORDERED": 0,
+          "PRICEEACH": 0,
+          "ORDERLINENUMBER": 0,
+          "ORDERDATE": 0,
+          "STATUS": 0,
+          "QTR_ID": 0,
+          "MONTH_ID": 0,
+          "YEAR_ID": 0,
+          "PRODUCTLINE": 0,
+          "PRODUCTCODE": 0,
+          "CUSTOMERNAME": 0,
+          "ADDRESSLINE1": 0,
+          "ADDRESSLINE2": 0,
+          "CITY": 0,
+          "STATE": 0,
+          "POSTALCODE": 0,
+          "COUNTRY": 0,
+          "TERRITORY": 0,
+          "CONTACTLASTNAME": 0,
+          "CONTACTFIRSTNAME": 0,
+          "DEALSIZE": 0
+        }
+      },
+      "numerical_stats_json": {
+        "ORDERNUMBER": {
+          "count": 2823,
+          "mean": 10258.7251,
+          "median": 10262.0,
+          "mode": 10106.0,
+          "min": 10100.0,
+          "max": 10425.0,
+          "std": 92.0855,
+          "q25": 10180.0,
+          "q75": 10333.5
+        },
+        "QUANTITYORDERED": {
+          "count": 2823,
+          "mean": 35.0928,
+          "median": 35.0,
+          "mode": 34.0,
+          "min": 6.0,
+          "max": 97.0,
+          "std": 9.7414,
+          "q25": 27.0,
+          "q75": 43.0
+        },
+        "PRICEEACH": {
+          "count": 2823,
+          "mean": 83.6585,
+          "median": 95.7,
+          "mode": 100.0,
+          "min": 26.88,
+          "max": 100.0,
+          "std": 20.1743,
+          "q25": 68.86,
+          "q75": 100.0
+        },
+        "ORDERLINENUMBER": {
+          "count": 2823,
+          "mean": 6.4662,
+          "median": 6.0,
+          "mode": 1.0,
+          "min": 1.0,
+          "max": 18.0,
+          "std": 4.2258,
+          "q25": 3.0,
+          "q75": 9.0
+        },
+        "QTR_ID": {
+          "count": 2823,
+          "mean": 2.7177,
+          "median": 3.0,
+          "mode": 4.0,
+          "min": 1.0,
+          "max": 4.0,
+          "std": 1.2039,
+          "q25": 2.0,
+          "q75": 4.0
+        },
+        "MONTH_ID": {
+          "count": 2823,
+          "mean": 7.0925,
+          "median": 8.0,
+          "mode": 11.0,
+          "min": 1.0,
+          "max": 12.0,
+          "std": 3.6566,
+          "q25": 4.0,
+          "q75": 11.0
+        },
+        "YEAR_ID": {
+          "count": 2823,
+          "mean": 2003.8151,
+          "median": 2004.0,
+          "mode": 2004.0,
+          "min": 2003.0,
+          "max": 2005.0,
+          "std": 0.6997,
+          "q25": 2003.0,
+          "q75": 2004.0
+        }
+      },
+      "categorical_stats_json": {
+        "ORDERDATE": {
+          "unique_values": 252,
+          "top_category": "11/14/2003 0:00",
+          "top_category_count": 38,
+          "frequency_distribution": {
+            "11/14/2003 0:00": {
+              "count": 38,
+              "percentage": 1.35
+            },
+            "11/24/2004 0:00": {
+              "count": 35,
+              "percentage": 1.24
+            },
+            "2003-12-11 00:00:00": {
+              "count": 34,
+              "percentage": 1.2
+            },
+            "11/17/2004 0:00": {
+              "count": 32,
+              "percentage": 1.13
+            },
+            "2004-04-11 00:00:00": {
+              "count": 29,
+              "percentage": 1.03
+            },
+            "2003-05-11 00:00:00": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "10/16/2004 0:00": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "2003-02-12 00:00:00": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "2003-06-11 00:00:00": {
+              "count": 27,
+              "percentage": 0.96
+            },
+            "8/20/2004 0:00": {
+              "count": 27,
+              "percentage": 0.96
+            },
+            "10/22/2004 0:00": {
+              "count": 26,
+              "percentage": 0.92
+            },
+            "2004-08-09 00:00:00": {
+              "count": 26,
+              "percentage": 0.92
+            },
+            "10/14/2004 0:00": {
+              "count": 26,
+              "percentage": 0.92
+            },
+            "2004-01-11 00:00:00": {
+              "count": 26,
+              "percentage": 0.92
+            },
+            "11/20/2003 0:00": {
+              "count": 25,
+              "percentage": 0.89
+            }
+          },
+          "top_categories": {
+            "11/14/2003 0:00": 38,
+            "11/24/2004 0:00": 35,
+            "2003-12-11 00:00:00": 34,
+            "11/17/2004 0:00": 32,
+            "2004-04-11 00:00:00": 29,
+            "2003-05-11 00:00:00": 28,
+            "10/16/2004 0:00": 28,
+            "2003-02-12 00:00:00": 28,
+            "2003-06-11 00:00:00": 27,
+            "8/20/2004 0:00": 27
+          }
+        },
+        "STATUS": {
+          "unique_values": 6,
+          "top_category": "Shipped",
+          "top_category_count": 2617,
+          "frequency_distribution": {
+            "Shipped": {
+              "count": 2617,
+              "percentage": 92.7
+            },
+            "Cancelled": {
+              "count": 60,
+              "percentage": 2.13
+            },
+            "Resolved": {
+              "count": 47,
+              "percentage": 1.66
+            },
+            "On Hold": {
+              "count": 44,
+              "percentage": 1.56
+            },
+            "In Process": {
+              "count": 41,
+              "percentage": 1.45
+            },
+            "Disputed": {
+              "count": 14,
+              "percentage": 0.5
+            }
+          },
+          "top_categories": {
+            "Shipped": 2617,
+            "Cancelled": 60,
+            "Resolved": 47,
+            "On Hold": 44,
+            "In Process": 41,
+            "Disputed": 14
+          }
+        },
+        "PRODUCTLINE": {
+          "unique_values": 7,
+          "top_category": "Classic Cars",
+          "top_category_count": 967,
+          "frequency_distribution": {
+            "Classic Cars": {
+              "count": 967,
+              "percentage": 34.25
+            },
+            "Vintage Cars": {
+              "count": 607,
+              "percentage": 21.5
+            },
+            "Motorcycles": {
+              "count": 331,
+              "percentage": 11.73
+            },
+            "Planes": {
+              "count": 306,
+              "percentage": 10.84
+            },
+            "Trucks and Buses": {
+              "count": 301,
+              "percentage": 10.66
+            },
+            "Ships": {
+              "count": 234,
+              "percentage": 8.29
+            },
+            "Trains": {
+              "count": 77,
+              "percentage": 2.73
+            }
+          },
+          "top_categories": {
+            "Classic Cars": 967,
+            "Vintage Cars": 607,
+            "Motorcycles": 331,
+            "Planes": 306,
+            "Trucks and Buses": 301,
+            "Ships": 234,
+            "Trains": 77
+          }
+        },
+        "PRODUCTCODE": {
+          "unique_values": 109,
+          "top_category": "S18_3232",
+          "top_category_count": 52,
+          "frequency_distribution": {
+            "S18_3232": {
+              "count": 52,
+              "percentage": 1.84
+            },
+            "S10_1949": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S24_1444": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S10_4962": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S24_2840": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S50_1392": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S12_1666": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S32_2509": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S18_2432": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S18_1097": {
+              "count": 28,
+              "percentage": 0.99
+            },
+            "S18_2238": {
+              "count": 27,
+              "percentage": 0.96
+            },
+            "S24_3949": {
+              "count": 27,
+              "percentage": 0.96
+            },
+            "S18_4600": {
+              "count": 27,
+              "percentage": 0.96
+            },
+            "S32_1268": {
+              "count": 27,
+              "percentage": 0.96
+            },
+            "S18_2957": {
+              "count": 27,
+              "percentage": 0.96
+            }
+          },
+          "top_categories": {
+            "S18_3232": 52,
+            "S10_1949": 28,
+            "S24_1444": 28,
+            "S10_4962": 28,
+            "S24_2840": 28,
+            "S50_1392": 28,
+            "S12_1666": 28,
+            "S32_2509": 28,
+            "S18_2432": 28,
+            "S18_1097": 28
+          }
+        },
+        "CUSTOMERNAME": {
+          "unique_values": 92,
+          "top_category": "Euro Shopping Channel",
+          "top_category_count": 259,
+          "frequency_distribution": {
+            "Euro Shopping Channel": {
+              "count": 259,
+              "percentage": 9.17
+            },
+            "Mini Gifts Distributors Ltd.": {
+              "count": 180,
+              "percentage": 6.38
+            },
+            "Australian Collectors, Co.": {
+              "count": 55,
+              "percentage": 1.95
+            },
+            "La Rochelle Gifts": {
+              "count": 53,
+              "percentage": 1.88
+            },
+            "AV Stores, Co.": {
+              "count": 51,
+              "percentage": 1.81
+            },
+            "Land of Toys Inc.": {
+              "count": 49,
+              "percentage": 1.74
+            },
+            "Rovelli Gifts": {
+              "count": 48,
+              "percentage": 1.7
+            },
+            "Muscle Machine Inc": {
+              "count": 48,
+              "percentage": 1.7
+            },
+            "Anna's Decorations, Ltd": {
+              "count": 46,
+              "percentage": 1.63
+            },
+            "Souveniers And Things Co.": {
+              "count": 46,
+              "percentage": 1.63
+            },
+            "Dragon Souveniers, Ltd.": {
+              "count": 43,
+              "percentage": 1.52
+            },
+            "Reims Collectables": {
+              "count": 41,
+              "percentage": 1.45
+            },
+            "Corporate Gift Ideas Co.": {
+              "count": 41,
+              "percentage": 1.45
+            },
+            "Saveley & Henriot, Co.": {
+              "count": 41,
+              "percentage": 1.45
+            },
+            "Salzburg Collectables": {
+              "count": 40,
+              "percentage": 1.42
+            }
+          },
+          "top_categories": {
+            "Euro Shopping Channel": 259,
+            "Mini Gifts Distributors Ltd.": 180,
+            "Australian Collectors, Co.": 55,
+            "La Rochelle Gifts": 53,
+            "AV Stores, Co.": 51,
+            "Land of Toys Inc.": 49,
+            "Rovelli Gifts": 48,
+            "Muscle Machine Inc": 48,
+            "Anna's Decorations, Ltd": 46,
+            "Souveniers And Things Co.": 46
+          }
+        },
+        "ADDRESSLINE1": {
+          "unique_values": 92,
+          "top_category": "C/ Moralzarzal, 86",
+          "top_category_count": 259,
+          "frequency_distribution": {
+            "C/ Moralzarzal, 86": {
+              "count": 259,
+              "percentage": 9.17
+            },
+            "5677 Strong St.": {
+              "count": 180,
+              "percentage": 6.38
+            },
+            "636 St Kilda Road": {
+              "count": 55,
+              "percentage": 1.95
+            },
+            "67, rue des Cinquante Otages": {
+              "count": 53,
+              "percentage": 1.88
+            },
+            "Fauntleroy Circus": {
+              "count": 51,
+              "percentage": 1.81
+            },
+            "897 Long Airport Avenue": {
+              "count": 49,
+              "percentage": 1.74
+            },
+            "Via Ludovico il Moro 22": {
+              "count": 48,
+              "percentage": 1.7
+            },
+            "4092 Furth Circle": {
+              "count": 48,
+              "percentage": 1.7
+            },
+            "201 Miller Street": {
+              "count": 46,
+              "percentage": 1.63
+            },
+            "Monitor Money Building, 815 Pacific Hwy": {
+              "count": 46,
+              "percentage": 1.63
+            },
+            "Bronz Sok., Bronz Apt. 3/6 Tesvikiye": {
+              "count": 43,
+              "percentage": 1.52
+            },
+            "59 rue de l'Abbaye": {
+              "count": 41,
+              "percentage": 1.45
+            },
+            "7734 Strong St.": {
+              "count": 41,
+              "percentage": 1.45
+            },
+            "2, rue du Commerce": {
+              "count": 41,
+              "percentage": 1.45
+            },
+            "Geislweg 14": {
+              "count": 40,
+              "percentage": 1.42
+            }
+          },
+          "top_categories": {
+            "C/ Moralzarzal, 86": 259,
+            "5677 Strong St.": 180,
+            "636 St Kilda Road": 55,
+            "67, rue des Cinquante Otages": 53,
+            "Fauntleroy Circus": 51,
+            "897 Long Airport Avenue": 49,
+            "Via Ludovico il Moro 22": 48,
+            "4092 Furth Circle": 48,
+            "201 Miller Street": 46,
+            "Monitor Money Building, 815 Pacific Hwy": 46
+          }
+        },
+        "ADDRESSLINE2": {
+          "unique_values": 9,
+          "top_category": "Level 3",
+          "top_category_count": 55,
+          "frequency_distribution": {
+            "Level 3": {
+              "count": 55,
+              "percentage": 18.21
+            },
+            "Suite 400": {
+              "count": 48,
+              "percentage": 15.89
+            },
+            "Level 6": {
+              "count": 46,
+              "percentage": 15.23
+            },
+            "Level 15": {
+              "count": 46,
+              "percentage": 15.23
+            },
+            "2nd Floor": {
+              "count": 36,
+              "percentage": 11.92
+            },
+            "Suite 101": {
+              "count": 25,
+              "percentage": 8.28
+            },
+            "Suite 750": {
+              "count": 20,
+              "percentage": 6.62
+            },
+            "Floor No. 4": {
+              "count": 16,
+              "percentage": 5.3
+            },
+            "Suite 200": {
+              "count": 10,
+              "percentage": 3.31
+            }
+          },
+          "top_categories": {
+            "Level 3": 55,
+            "Suite 400": 48,
+            "Level 6": 46,
+            "Level 15": 46,
+            "2nd Floor": 36,
+            "Suite 101": 25,
+            "Suite 750": 20,
+            "Floor No. 4": 16,
+            "Suite 200": 10
+          }
+        },
+        "CITY": {
+          "unique_values": 73,
+          "top_category": "Madrid",
+          "top_category_count": 304,
+          "frequency_distribution": {
+            "Madrid": {
+              "count": 304,
+              "percentage": 10.77
+            },
+            "San Rafael": {
+              "count": 180,
+              "percentage": 6.38
+            },
+            "NYC": {
+              "count": 152,
+              "percentage": 5.38
+            },
+            "Singapore": {
+              "count": 79,
+              "percentage": 2.8
+            },
+            "Paris": {
+              "count": 70,
+              "percentage": 2.48
+            },
+            "San Francisco": {
+              "count": 62,
+              "percentage": 2.2
+            },
+            "New Bedford": {
+              "count": 61,
+              "percentage": 2.16
+            },
+            "Nantes": {
+              "count": 60,
+              "percentage": 2.13
+            },
+            "Melbourne": {
+              "count": 55,
+              "percentage": 1.95
+            },
+            "Manchester": {
+              "count": 51,
+              "percentage": 1.81
+            },
+            "Bergamo": {
+              "count": 48,
+              "percentage": 1.7
+            },
+            "Brickhaven": {
+              "count": 47,
+              "percentage": 1.66
+            },
+            "Chatswood": {
+              "count": 46,
+              "percentage": 1.63
+            },
+            "North Sydney": {
+              "count": 46,
+              "percentage": 1.63
+            },
+            "Boston": {
+              "count": 44,
+              "percentage": 1.56
+            }
+          },
+          "top_categories": {
+            "Madrid": 304,
+            "San Rafael": 180,
+            "NYC": 152,
+            "Singapore": 79,
+            "Paris": 70,
+            "San Francisco": 62,
+            "New Bedford": 61,
+            "Nantes": 60,
+            "Melbourne": 55,
+            "Manchester": 51
+          }
+        },
+        "STATE": {
+          "unique_values": 16,
+          "top_category": "CA",
+          "top_category_count": 416,
+          "frequency_distribution": {
+            "CA": {
+              "count": 416,
+              "percentage": 31.11
+            },
+            "MA": {
+              "count": 190,
+              "percentage": 14.21
+            },
+            "NY": {
+              "count": 178,
+              "percentage": 13.31
+            },
+            "NSW": {
+              "count": 92,
+              "percentage": 6.88
+            },
+            "Victoria": {
+              "count": 78,
+              "percentage": 5.83
+            },
+            "PA": {
+              "count": 75,
+              "percentage": 5.61
+            },
+            "CT": {
+              "count": 61,
+              "percentage": 4.56
+            },
+            "BC": {
+              "count": 48,
+              "percentage": 3.59
+            },
+            "NH": {
+              "count": 34,
+              "percentage": 2.54
+            },
+            "Tokyo": {
+              "count": 32,
+              "percentage": 2.39
+            },
+            "NV": {
+              "count": 29,
+              "percentage": 2.17
+            },
+            "Isle of Wight": {
+              "count": 26,
+              "percentage": 1.94
+            },
+            "Quebec": {
+              "count": 22,
+              "percentage": 1.65
+            },
+            "NJ": {
+              "count": 21,
+              "percentage": 1.57
+            },
+            "Osaka": {
+              "count": 20,
+              "percentage": 1.5
+            }
+          },
+          "top_categories": {
+            "CA": 416,
+            "MA": 190,
+            "NY": 178,
+            "NSW": 92,
+            "Victoria": 78,
+            "PA": 75,
+            "CT": 61,
+            "BC": 48,
+            "NH": 34,
+            "Tokyo": 32
+          }
+        },
+        "POSTALCODE": {
+          "unique_values": 73,
+          "top_category": "28034",
+          "top_category_count": 259,
+          "frequency_distribution": {
+            "28034": {
+              "count": 259,
+              "percentage": 9.43
+            },
+            "97562": {
+              "count": 205,
+              "percentage": 7.46
+            },
+            "10022": {
+              "count": 152,
+              "percentage": 5.53
+            },
+            "94217": {
+              "count": 89,
+              "percentage": 3.24
+            },
+            "50553": {
+              "count": 61,
+              "percentage": 2.22
+            },
+            "44000": {
+              "count": 60,
+              "percentage": 2.18
+            },
+            "3004": {
+              "count": 55,
+              "percentage": 2.0
+            },
+            "EC2 5NT": {
+              "count": 51,
+              "percentage": 1.86
+            },
+            "24100": {
+              "count": 48,
+              "percentage": 1.75
+            },
+            "58339": {
+              "count": 47,
+              "percentage": 1.71
+            },
+            "2067": {
+              "count": 46,
+              "percentage": 1.67
+            },
+            "2060": {
+              "count": 46,
+              "percentage": 1.67
+            },
+            "28023": {
+              "count": 45,
+              "percentage": 1.64
+            },
+            "71270": {
+              "count": 44,
+              "percentage": 1.6
+            },
+            "51003": {
+              "count": 44,
+              "percentage": 1.6
+            }
+          },
+          "top_categories": {
+            "28034": 259,
+            "97562": 205,
+            "10022": 152,
+            "94217": 89,
+            "50553": 61,
+            "44000": 60,
+            "3004": 55,
+            "EC2 5NT": 51,
+            "24100": 48,
+            "58339": 47
+          }
+        },
+        "COUNTRY": {
+          "unique_values": 19,
+          "top_category": "USA",
+          "top_category_count": 1004,
+          "frequency_distribution": {
+            "USA": {
+              "count": 1004,
+              "percentage": 35.57
+            },
+            "Spain": {
+              "count": 342,
+              "percentage": 12.11
+            },
+            "France": {
+              "count": 314,
+              "percentage": 11.12
+            },
+            "Australia": {
+              "count": 185,
+              "percentage": 6.55
+            },
+            "UK": {
+              "count": 144,
+              "percentage": 5.1
+            },
+            "Italy": {
+              "count": 113,
+              "percentage": 4.0
+            },
+            "Finland": {
+              "count": 92,
+              "percentage": 3.26
+            },
+            "Norway": {
+              "count": 85,
+              "percentage": 3.01
+            },
+            "Singapore": {
+              "count": 79,
+              "percentage": 2.8
+            },
+            "Canada": {
+              "count": 70,
+              "percentage": 2.48
+            },
+            "Denmark": {
+              "count": 63,
+              "percentage": 2.23
+            },
+            "Germany": {
+              "count": 62,
+              "percentage": 2.2
+            },
+            "Sweden": {
+              "count": 57,
+              "percentage": 2.02
+            },
+            "Austria": {
+              "count": 55,
+              "percentage": 1.95
+            },
+            "Japan": {
+              "count": 52,
+              "percentage": 1.84
+            }
+          },
+          "top_categories": {
+            "USA": 1004,
+            "Spain": 342,
+            "France": 314,
+            "Australia": 185,
+            "UK": 144,
+            "Italy": 113,
+            "Finland": 92,
+            "Norway": 85,
+            "Singapore": 79,
+            "Canada": 70
+          }
+        },
+        "TERRITORY": {
+          "unique_values": 3,
+          "top_category": "EMEA",
+          "top_category_count": 1407,
+          "frequency_distribution": {
+            "EMEA": {
+              "count": 1407,
+              "percentage": 80.45
+            },
+            "APAC": {
+              "count": 221,
+              "percentage": 12.64
+            },
+            "Japan": {
+              "count": 121,
+              "percentage": 6.92
+            }
+          },
+          "top_categories": {
+            "EMEA": 1407,
+            "APAC": 221,
+            "Japan": 121
+          }
+        },
+        "CONTACTLASTNAME": {
+          "unique_values": 77,
+          "top_category": "Freyre",
+          "top_category_count": 259,
+          "frequency_distribution": {
+            "Freyre": {
+              "count": 259,
+              "percentage": 9.17
+            },
+            "Nelson": {
+              "count": 204,
+              "percentage": 7.23
+            },
+            "Young": {
+              "count": 115,
+              "percentage": 4.07
+            },
+            "Frick": {
+              "count": 91,
+              "percentage": 3.22
+            },
+            "Brown": {
+              "count": 88,
+              "percentage": 3.12
+            },
+            "Yu": {
+              "count": 80,
+              "percentage": 2.83
+            },
+            "Hernandez": {
+              "count": 70,
+              "percentage": 2.48
+            },
+            "Ferguson": {
+              "count": 55,
+              "percentage": 1.95
+            },
+            "King": {
+              "count": 54,
+              "percentage": 1.91
+            },
+            "Labrune": {
+              "count": 53,
+              "percentage": 1.88
+            },
+            "Ashworth": {
+              "count": 51,
+              "percentage": 1.81
+            },
+            "Rovelli": {
+              "count": 48,
+              "percentage": 1.7
+            },
+            "Huxley": {
+              "count": 46,
+              "percentage": 1.63
+            },
+            "O'Hara": {
+              "count": 46,
+              "percentage": 1.63
+            },
+            "Natividad": {
+              "count": 43,
+              "percentage": 1.52
+            }
+          },
+          "top_categories": {
+            "Freyre": 259,
+            "Nelson": 204,
+            "Young": 115,
+            "Frick": 91,
+            "Brown": 88,
+            "Yu": 80,
+            "Hernandez": 70,
+            "Ferguson": 55,
+            "King": 54,
+            "Labrune": 53
+          }
+        },
+        "CONTACTFIRSTNAME": {
+          "unique_values": 72,
+          "top_category": "Diego",
+          "top_category_count": 259,
+          "frequency_distribution": {
+            "Diego": {
+              "count": 259,
+              "percentage": 9.17
+            },
+            "Valarie": {
+              "count": 257,
+              "percentage": 9.1
+            },
+            "Julie": {
+              "count": 117,
+              "percentage": 4.14
+            },
+            "Sue": {
+              "count": 84,
+              "percentage": 2.98
+            },
+            "Michael": {
+              "count": 84,
+              "percentage": 2.98
+            },
+            "Juri": {
+              "count": 60,
+              "percentage": 2.13
+            },
+            "Maria": {
+              "count": 58,
+              "percentage": 2.05
+            },
+            "Peter": {
+              "count": 55,
+              "percentage": 1.95
+            },
+            "Elizabeth": {
+              "count": 55,
+              "percentage": 1.95
+            },
+            "Janine": {
+              "count": 53,
+              "percentage": 1.88
+            },
+            "Victoria": {
+              "count": 51,
+              "percentage": 1.81
+            },
+            "Kwai": {
+              "count": 49,
+              "percentage": 1.74
+            },
+            "Giovanni": {
+              "count": 48,
+              "percentage": 1.7
+            },
+            "Jeff": {
+              "count": 48,
+              "percentage": 1.7
+            },
+            "Anna": {
+              "count": 46,
+              "percentage": 1.63
+            }
+          },
+          "top_categories": {
+            "Diego": 259,
+            "Valarie": 257,
+            "Julie": 117,
+            "Sue": 84,
+            "Michael": 84,
+            "Juri": 60,
+            "Maria": 58,
+            "Peter": 55,
+            "Elizabeth": 55,
+            "Janine": 53
+          }
+        },
+        "DEALSIZE": {
+          "unique_values": 3,
+          "top_category": "Medium",
+          "top_category_count": 1384,
+          "frequency_distribution": {
+            "Medium": {
+              "count": 1384,
+              "percentage": 49.03
+            },
+            "Small": {
+              "count": 1282,
+              "percentage": 45.41
+            },
+            "Large": {
+              "count": 157,
+              "percentage": 5.56
+            }
+          },
+          "top_categories": {
+            "Medium": 1384,
+            "Small": 1282,
+            "Large": 157
+          }
+        }
+      },
+      "correlation_matrix_json": {
+        "matrix": {
+          "ORDERNUMBER": {
+            "ORDERNUMBER": 1.0,
+            "QUANTITYORDERED": 0.0655,
+            "PRICEEACH": -0.0029,
+            "ORDERLINENUMBER": -0.0556,
+            "QTR_ID": -0.0514,
+            "MONTH_ID": -0.0397,
+            "YEAR_ID": 0.9046
+          },
+          "QUANTITYORDERED": {
+            "ORDERNUMBER": 0.0655,
+            "QUANTITYORDERED": 1.0,
+            "PRICEEACH": 0.0056,
+            "ORDERLINENUMBER": -0.0184,
+            "QTR_ID": -0.0353,
+            "MONTH_ID": -0.039,
+            "YEAR_ID": 0.0695
+          },
+          "PRICEEACH": {
+            "ORDERNUMBER": -0.0029,
+            "QUANTITYORDERED": 0.0056,
+            "PRICEEACH": 1.0,
+            "ORDERLINENUMBER": -0.021,
+            "QTR_ID": 0.0087,
+            "MONTH_ID": 0.0052,
+            "YEAR_ID": -0.0059
+          },
+          "ORDERLINENUMBER": {
+            "ORDERNUMBER": -0.0556,
+            "QUANTITYORDERED": -0.0184,
+            "PRICEEACH": -0.021,
+            "ORDERLINENUMBER": 1.0,
+            "QTR_ID": 0.0407,
+            "MONTH_ID": 0.034,
+            "YEAR_ID": -0.0574
+          },
+          "QTR_ID": {
+            "ORDERNUMBER": -0.0514,
+            "QUANTITYORDERED": -0.0353,
+            "PRICEEACH": 0.0087,
+            "ORDERLINENUMBER": 0.0407,
+            "QTR_ID": 1.0,
+            "MONTH_ID": 0.9793,
+            "YEAR_ID": -0.4331
+          },
+          "MONTH_ID": {
+            "ORDERNUMBER": -0.0397,
+            "QUANTITYORDERED": -0.039,
+            "PRICEEACH": 0.0052,
+            "ORDERLINENUMBER": 0.034,
+            "QTR_ID": 0.9793,
+            "MONTH_ID": 1.0,
+            "YEAR_ID": -0.4302
+          },
+          "YEAR_ID": {
+            "ORDERNUMBER": 0.9046,
+            "QUANTITYORDERED": 0.0695,
+            "PRICEEACH": -0.0059,
+            "ORDERLINENUMBER": -0.0574,
+            "QTR_ID": -0.4331,
+            "MONTH_ID": -0.4302,
+            "YEAR_ID": 1.0
+          }
+        },
+        "strong_positive": [
+          {
+            "col1": "ORDERNUMBER",
+            "col2": "YEAR_ID",
+            "correlation": 0.9046
+          },
+          {
+            "col1": "QTR_ID",
+            "col2": "MONTH_ID",
+            "correlation": 0.9793
+          }
+        ],
+        "strong_negative": []
+      }
+    }
+  ],
+  "generated_charts": [
+    {
+      "id": 1,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Sales_Amount",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_3d963c86.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.691974"
+    },
+    {
+      "id": 2,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Sales_Amount",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_0de2c6ed.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.723685"
+    },
+    {
+      "id": 3,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Quantity",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_acccde38.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.756568"
+    },
+    {
+      "id": 4,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Quantity",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_4a67b53c.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.789768"
+    },
+    {
+      "id": 5,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Discount_Pct",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_2bdf8c99.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.829621"
+    },
+    {
+      "id": 6,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Discount_Pct",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_df1b1d6b.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.867229"
+    },
+    {
+      "id": 7,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Customer_Rating",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_9242f407.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.906670"
+    },
+    {
+      "id": 8,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Customer_Rating",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_cded7976.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.941611"
+    },
+    {
+      "id": 9,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Transaction_ID",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_fbe6b026.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:32.974532"
+    },
+    {
+      "id": 10,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Date",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_a52b6e9f.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:33.009099"
+    },
+    {
+      "id": 11,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Category",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_957a6727.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:33.049813"
+    },
+    {
+      "id": 12,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Pie Chart",
+      "chart_title": "Pie Chart of Category",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_6c5da0f2.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:33.088533"
+    },
+    {
+      "id": 13,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Region",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_535988a6.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:33.122483"
+    },
+    {
+      "id": 14,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Pie Chart",
+      "chart_title": "Pie Chart of Region",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_64fb55e0.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:33.158448"
+    },
+    {
+      "id": 15,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Trend Chart",
+      "chart_title": "Trend Chart of Date",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_e9b565d1.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:33.197863"
+    },
+    {
+      "id": 16,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "chart_type": "Heatmap",
+      "chart_title": "Correlation Heatmap",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_1_897c415c.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:33.234012"
+    },
+    {
+      "id": 17,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Sales_Amount",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_d3f76ca3.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.101194"
+    },
+    {
+      "id": 18,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Sales_Amount",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_a8ad78ae.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.147037"
+    },
+    {
+      "id": 19,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Quantity",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_93691c8d.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.196793"
+    },
+    {
+      "id": 20,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Quantity",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_004ac2e9.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.239846"
+    },
+    {
+      "id": 21,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Discount_Pct",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_5db0783f.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.287588"
+    },
+    {
+      "id": 22,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Discount_Pct",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_256b0680.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.334010"
+    },
+    {
+      "id": 23,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Customer_Rating",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_055e1da4.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.383531"
+    },
+    {
+      "id": 24,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Customer_Rating",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_4679549e.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.426328"
+    },
+    {
+      "id": 25,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Transaction_ID",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_13e8a243.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.468882"
+    },
+    {
+      "id": 26,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Date",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_b37a349d.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.508201"
+    },
+    {
+      "id": 27,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Category",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_7e7faf62.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.545450"
+    },
+    {
+      "id": 28,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Pie Chart",
+      "chart_title": "Pie Chart of Category",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_7d732758.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.582489"
+    },
+    {
+      "id": 29,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Region",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_643d4f3c.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.622585"
+    },
+    {
+      "id": 30,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Pie Chart",
+      "chart_title": "Pie Chart of Region",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_bab9be80.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.665381"
+    },
+    {
+      "id": 31,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Trend Chart",
+      "chart_title": "Trend Chart of Date",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_2f271104.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.706293"
+    },
+    {
+      "id": 32,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "chart_type": "Heatmap",
+      "chart_title": "Correlation Heatmap",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_2_615218c3.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:07:52.759353"
+    },
+    {
+      "id": 33,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Transaction ID",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_fa3e21bb.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.256775"
+    },
+    {
+      "id": 34,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Transaction ID",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_6c057903.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.305644"
+    },
+    {
+      "id": 35,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Day",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_8c9ceed5.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.361609"
+    },
+    {
+      "id": 36,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Day",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_4a997217.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.418524"
+    },
+    {
+      "id": 37,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Month",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_037f4b2a.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.475733"
+    },
+    {
+      "id": 38,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Month",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_d88c3603.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.537476"
+    },
+    {
+      "id": 39,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of Year",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_c0daed45.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.594965"
+    },
+    {
+      "id": 40,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of Year",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_b67ceb5a.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.649979"
+    },
+    {
+      "id": 41,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Day Name",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_b1019a02.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.706588"
+    },
+    {
+      "id": 42,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Brand",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_364fe8fd.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.763044"
+    },
+    {
+      "id": 43,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Pie Chart",
+      "chart_title": "Pie Chart of Brand",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_d29bd4f6.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.816780"
+    },
+    {
+      "id": 44,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of Customer Name",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_e4aa8bf6.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.877003"
+    },
+    {
+      "id": 45,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of City",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_a5c1e917.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:28.938563"
+    },
+    {
+      "id": 46,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "chart_type": "Heatmap",
+      "chart_title": "Correlation Heatmap",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_3_7b917c43.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:13:29.006391"
+    },
+    {
+      "id": 47,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of ORDERNUMBER",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_c4992e03.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:55.712391"
+    },
+    {
+      "id": 48,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of ORDERNUMBER",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_a38d0c6e.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:55.768313"
+    },
+    {
+      "id": 49,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of QUANTITYORDERED",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_30454300.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:55.817493"
+    },
+    {
+      "id": 50,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of QUANTITYORDERED",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_0374c412.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:55.868036"
+    },
+    {
+      "id": 51,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of PRICEEACH",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_ef440fca.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:55.923757"
+    },
+    {
+      "id": 52,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of PRICEEACH",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_037e25c1.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:55.979425"
+    },
+    {
+      "id": 53,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Histogram",
+      "chart_title": "Histogram of ORDERLINENUMBER",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_c039277e.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.036537"
+    },
+    {
+      "id": 54,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Box Plot",
+      "chart_title": "Box Plot of ORDERLINENUMBER",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_33abfd6d.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.100363"
+    },
+    {
+      "id": 55,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of ORDERDATE",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_378231e6.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.153768"
+    },
+    {
+      "id": 56,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of STATUS",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_a82d1c5b.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.219125"
+    },
+    {
+      "id": 57,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Pie Chart",
+      "chart_title": "Pie Chart of STATUS",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_8bebaede.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.279076"
+    },
+    {
+      "id": 58,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of PRODUCTLINE",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_14b9def0.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.346945"
+    },
+    {
+      "id": 59,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Bar Chart",
+      "chart_title": "Bar Chart of PRODUCTCODE",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_0ed9abde.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.401571"
+    },
+    {
+      "id": 60,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Trend Chart",
+      "chart_title": "Trend Chart of ORDERDATE",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_c4e538be.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.485581"
+    },
+    {
+      "id": 61,
+      "dataset_id": 4,
+      "analysis_id": 4,
+      "chart_type": "Heatmap",
+      "chart_title": "Correlation Heatmap",
+      "storage_path": "D:\\Automate DA\\backend\\charts\\chart_4_6739b3a4.png",
+      "chart_metadata_json": {
+        "width": 1050,
+        "height": 675,
+        "dpi": 150
+      },
+      "created_at": "2026-09-09T08:16:56.540006"
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "dataset_id": 1,
+      "analysis_id": 1,
+      "report_title": "Executive Data Analysis Report - sample_sales_data.csv",
+      "storage_path": "D:\\Automate DA\\backend\\reports\\report_dataset_1_1788921453.pdf",
+      "file_size_bytes": 689247,
+      "created_at": "2026-09-09T08:07:34.529790"
+    },
+    {
+      "id": 2,
+      "dataset_id": 2,
+      "analysis_id": 2,
+      "report_title": "Executive Data Analysis Report - sample_sales_data.csv",
+      "storage_path": "D:\\Automate DA\\backend\\reports\\report_dataset_2_1788921472.pdf",
+      "file_size_bytes": 689250,
+      "created_at": "2026-09-09T08:07:54.101527"
+    },
+    {
+      "id": 3,
+      "dataset_id": 3,
+      "analysis_id": 3,
+      "report_title": "Executive Data Analysis Report - Day - 30 - Mobile Sales Data.xlsx",
+      "storage_path": "D:\\Automate DA\\backend\\reports\\report_dataset_3_1788921815.pdf",
+      "file_size_bytes": 620641,
+      "created_at": "2026-09-09T08:13:37.156357"
+    }
+  ]
+}
